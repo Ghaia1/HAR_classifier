@@ -1,0 +1,19 @@
+{
+  "date": "2026-06-28",
+  "dataset": "data/processed/features (val/test normalized splits)",
+  "neai_library": "model_weights/NEAI_libneai_project-2026-06-27-20-35_1/emulators/libneai.dll",
+  "model_type": "classification",
+  "input_signal_size": 64,
+  "axis_number": 1,
+  "class_count": 4,
+  "validation_accuracy": 1.0,
+  "test_accuracy": 0.98,
+  "latency_ms_per_window": 0.021,
+  "benchmark_runs": 1000,
+  "window_duration_ms": 2500,
+  "realtime_factor": 0.0000084,
+  "comparison": {
+    "sklearn_validation_accuracy": 1.0,
+    "sklearn_test_accuracy": 0.98
+  }
+}

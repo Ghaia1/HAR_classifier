@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.dist/
+.build/
+
+# Virtual environments
+.venv/
+
+# Tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Outputs
+outputs/figures/
+outputs/models/
+outputs/reports/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/*.code-workspace
+
+# Temporary files (Office/Word lock files)
+~WRL*.tmp

@@ -1,0 +1,105 @@
+{
+    "accelerators": [],
+    "algorithm_type": "classifier",
+    "class_names": [
+        "walking_train_nanoedge",
+        "sitting_train_nanoedge",
+        "running_train_nanoedge",
+        "falling_train_nanoedge"
+    ],
+    "commit": "HEAD",
+    "compilation_date": "2026-06-28T21:32:28.803626",
+    "compilation_flags": {
+        "float_abi": "hard",
+        "fshort_enums": true,
+        "short_wchar": false
+    },
+    "compilation_str": "{'compilation_dict':{'request_type':'library','api':{'env':'PROD','version':'v3'},'version':{'web_api':{'env':'PROD','version':'v3'},'local_api':{'version':'2026.03.05.0','platform':'win64'},'studio':'5.1.1'},'compilation_flags':{'float_abi':'hard','short_wchar':false,'fshort_enums':true,'use_knowledge':false},'mcu':'cortex-m33_stmicroelectronics_stm32u5-series','sensor':'','accelerators':[],'request_origin':'manual','algorithm_type':'classifier','lib_version':'v3_3938dd5','info':{'progression':{'evals_done':3447,'optimization_progress':0.17235,'elapsed_time':389,'cpu_info':{'cpu_nb_cores':16,'cpu_nb_cores_for_optimization':11},'state':'paused'},'max_ram':786000,'max_flash':2000000,'optimization_global_id':'39484f52516be43c36f32f7294cccf97','version':{'local_api':'2026.03.05.0','studio':'5.1.1'},'creation_date':'2026-06-27T18:44:58+00:00'},'class_names':'walking_train_nanoedge,sitting_train_nanoedge,running_train_nanoedge,falling_train_nanoedge','results':[{'result_id':29,'combination':{'type':'classification','name':'SVM','params':{'c':0.08084093225899422,'beta':5.0,'tmp_dir_path':null},'preprocessing_chain':[{'pooling':{'strategy':'max','output_percentage':85}}]},'model':null,'performance':{'performance':{'score':0.9896,'main_kpi':1.0},'memory_usage':{'estimated_ram':244,'estimated_flash':904,'estimated_flash_knowledge':null}},'learning_min_lines':null,'knowledge':'eNqVVdmuo1YQ_JXIzyFiX_IGBgMGY8DLNYxGiOWwmB0OZhndfw9mlEXJfcljV1HdTQuqfuyaDjRdHYK-z6pk9_sv337smroufhY_dlnVDNCLshJUfVZXG1Z5vV82BejXCiOYX39ZkRj4cOg2iCY3JEz9qgLF9tDnitQD_N-tqK9bhXUFwQTXshqKYgV62PkQJPOK7Ep_2v09rgFdCCroJ2DlWOrz8_vKlXUEim1-nyWVX3gFqP5c_J_7YWv98wB9toC_9hlKLyz8vt9WfCMBgP6b_Q3dlgNxnIXZOrXfZkT-xu4Uslf5Q-5bcr33RuLyvJvXyE54VrH5i3TswoYKT83Z3oe-LShXDFlIMZiE_LQX5ZI6iuJN77vKGNJxHuhp1G92YqdCQzG1HbV7ycqpeDJFlu7lMUyPJMZfDBDdmesztatZFjHE7pH79Lg7KtPVmvoiZAuZeh5Xz7x3u8VTnhsP9YBjIjPQbH9wSFpr52PvxF7tdjEZpVEhet0EuD2zSGpBDQhfv7rLkmglm-ozPt-ORU4beQGH8XW_GHvw4Q5KcT0I1sG8hc8WNzgHogdg6vSN0E4UZ4i0HbC-l3Z4u3enoyVL9Ku_WK5xJeOinUO5fgFtdMunw0i2Xrh34SzeT9GBIEJ9apZRRG4LpitDeVYRna3uF5tQCQjyhxZR11HhmJC3X8jDvZQBr0-9vV7RvbF4SMpTWNJqcBmBV49DgwwmZISXN6EFfdG0yJlpCiCDYZzDS25qPBovKBl_xK51Gm9Lcf0I6yj0UIHE7fHAgUhYllfR64EqnJlonhdRkK2rbwm6iUZK4QoD4RYJYbcZ2h5GunHj9Kw-3I_J9KeOpKJYBMPtVegZHC-qVuWymSfnMBBSvrs_lZS5EFznSsx6I0cw0KuRub3OK20C1jPhl4VJgg8Mjl4zqiWGVZbiwCd-XFL8UAWUjk4Jufg1h49VXlmtgpkdDNH103pSl6UAqtQUOkj98bE0cuscuzYZDNXpsxI7SGkF-aihOFavFf-jhzgWdnyZ4dIda83RGDwKnh97ZkiZV17S4t2vH-NJdUPc0bJEMlAkB7ba-qJDT8uCE-f5yuUWf6wwcakadTTOj6YRmZB4kFL32JfBQY4q1kwfJa4ZKRVGt1y0mCEaTakVXOXEsbbFkhwZHyMTFgFSIeN9_b1fajDss5Ma4xnPevSHLLV2Hr0UB-GjEn2GQwFDuXkaia1KQ27sj7YW3BjHrELeH6wTA41Gz6_1GHmBwksluQg4eCKHRBuL_QGjnnvjaEOfxsZMIexj47fZ3nvODs8IkyTh5ssQgoJX6HlBnozpfFwbHE3VopLxA3SWVALCLBPqnfHPCSE5F8OBhBejBrKXgihJEcz3qYlkThQUxoAIIlat8bt97GG5kMY0NtAcHw1sFI21XwRDWAKSI8TohXdrSS3gjGag28GpxXBETsPsrix6vszPc_zCNFbQDk_RQG61uh_nKvDotnkgPJtUDCwSfuT5t1NGcG7e5raLi9qHBP7G-tTfsG84Rn_fTK1cg2K1vMhb7a-ZPb_r_Lfdwm4AmyW_DTGLM9D1P0PkbYNeHcc9ePs0ujkpfJtx864R9DeUo2iWoTGc5TCMY_C1y79Vm93-S0ZiOIcSHEpyGMlSFEd_ocNQ9r9CjMIZlCUImsFQDudY5ishjf9XiLMoyq3qdTKJkRS1Rcj2vl7ll1sIfNuNfpGvmemtQZRVK17VIFoz533KDMKvmW6oqq-Z2C-KL5jvn59_AJrPiMY=','knowledge_dat':null,'commit_tag_used':'v3_3938dd5'}],'data':{'nb_cols':64,'nb_lines':[[{'file_type':'class','nb_lines':49},{'file_type':'class','nb_lines':27},{'file_type':'class','nb_lines':48},{'file_type':'class','nb_lines':13}]]},'toolchain_type':'gcc','only_emulators':false},'sign':125673,'license_key':'***'}",
+    "compile_emulators": true,
+    "compile_library": true,
+    "data": {
+        "nb_cols": 64,
+        "nb_lines": [
+            [
+                {
+                    "file_type": "class",
+                    "nb_lines": 49
+                },
+                {
+                    "file_type": "class",
+                    "nb_lines": 27
+                },
+                {
+                    "file_type": "class",
+                    "nb_lines": 48
+                },
+                {
+                    "file_type": "class",
+                    "nb_lines": 13
+                }
+            ]
+        ]
+    },
+    "learning_min_lines": null,
+    "lib_limited": false,
+    "library_id": "6a4192ed43090d1cc89bd95e",
+    "library_md5sum": "f01fa8e68a66e6710c2edbbea87a4850",
+    "mcu": "cortex-m33_stmicroelectronics_stm32u5-series",
+    "mcu_cpn": "",
+    "mcu_display_name": "STM32U5 Series - STMicroelectronics",
+    "mcu_family": "STM32U5 Series",
+    "mcu_group": "prod",
+    "mcu_type": "cortex-m33",
+    "mcu_vendor": "STMicroelectronics",
+    "optimization_info": {
+        "creation_date": "2026-06-27T18:44:58+00:00",
+        "max_flash": 2000000,
+        "max_ram": 786000,
+        "optimization_global_id": "39484f52516be43c36f32f7294cccf97",
+        "progression": {
+            "cpu_info": {
+                "cpu_nb_cores": 16,
+                "cpu_nb_cores_for_optimization": 11
+            },
+            "elapsed_time": 389,
+            "evals_done": 3447,
+            "optimization_progress": 0.17235,
+            "state": "paused"
+        },
+        "version": {
+            "local_api": "2026.03.05.0",
+            "studio": "5.1.1"
+        }
+    },
+    "performance": {
+        "memory_usage": {
+            "estimated_flash": 904,
+            "estimated_flash_knowledge": null,
+            "estimated_ram": 244
+        },
+        "performance": {
+            "main_kpi": 1.0,
+            "score": 0.9896
+        }
+    },
+    "request_type": "library",
+    "sensor": "",
+    "studio_info": {
+        "local_api": {
+            "platform": "win64",
+            "version": "2026.03.05.0"
+        },
+        "studio": "5.1.1",
+        "web_api": {
+            "env": "PROD",
+            "version": "v3"
+        }
+    },
+    "toolchain_version": "arm-none-eabi-gcc (Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)) 13.2.1 20231009",
+    "user_info": {
+        "company": "Schneider Electric",
+        "email": "ghaia.belaakaria@se.com",
+        "first_name": "Ghaia",
+        "last_name": "Belaakaria"
+    }
+}

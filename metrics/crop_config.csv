@@ -1,0 +1,5 @@
+recording_folder,activity_id,activity_name,crop_start_s,crop_end_s,duration_original_s,duration_cropped_s
+0_walking,0,walking,13.279,119.306,132.5,106.0
+1_sitting,1,sitting,12.285,110.336,122.6,98.1
+2_running,2,running,12.857,115.535,128.3,102.7
+3_falling,3,falling,8.223,73.767,81.9,65.5

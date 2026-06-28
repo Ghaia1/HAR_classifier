@@ -1,0 +1,18 @@
+{
+  "walking": {
+    "noise_percentile": 15,
+    "threshold_multiplier": 1.5
+  },
+  "sitting": {
+    "noise_percentile": 10,
+    "threshold_multiplier": 1.4
+  },
+  "running": {
+    "noise_percentile": 15,
+    "threshold_multiplier": 1.5
+  },
+  "falling": {
+    "noise_percentile": 5,
+    "threshold_multiplier": 0.9
+  }
+}
