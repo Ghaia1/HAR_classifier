@@ -29,3 +29,6 @@ Thumbs.db
 
 # Temporary files (Office/Word lock files)
 ~WRL*.tmp
+
+# Recording metadata exported by sensor app (device/timestamp details)
+data/raw/**/meta/
